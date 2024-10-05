@@ -1,0 +1,51 @@
+body {
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 45px 0 0;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--dark);
+  font-size: 12px;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+a,
+button {
+  text-decoration: none;
+  outline: 0;
+}
+
+fieldset {
+  border: none;
+}
+
+
+button {
+  padding: 20px 50px;
+  border: 1px solid var(--dark);
+  text-transform: uppercase;
+  color: var(--grey);
+  background-color: transparent;
+}
+button:hover {
+  background-color: var(--dark);
+  color: white;
+  border: none;
+}
