@@ -88,6 +88,7 @@
   left: 10%;
   bottom: 5%;
   transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
 }
 .banner-stend {
   opacity: 0;
