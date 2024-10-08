@@ -87,8 +87,6 @@
   width: 70%;
   left: 10%;
   bottom: 5%;
-  transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
 }
 .banner-stend {
   opacity: 0;
@@ -100,7 +98,7 @@
 .banner-woman {
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
   width: 35%;
   transform: translateX(-15px);
   opacity: 0;
@@ -110,7 +108,7 @@
   position: absolute;
   transform-origin: top;
   width: 25%;
-  left: -5%;
+  right: -5%;
   top: 17%;
   z-index: 10;
   transform: scale(0);
@@ -121,7 +119,7 @@
   transform-origin: top;
   width: 20%;
   top: 17%;
-  left: 13%;
+  right: 13%;
   z-index: 9;
   transform: scale(0);
   animation: scale .5s ease 2.5s forwards;
@@ -131,7 +129,7 @@
   transform-origin: top;
   width: 20%;
   top: 17%;
-  left: 25%;
+  right: 25%;
   z-index: 8;
   transform: scale(0);
   animation: scale .5s ease 2.7s forwards;
@@ -141,7 +139,7 @@
   transform-origin: top;
   width: 15%;
   top: 17%;
-  left: 38%;
+  right: 38%;
   z-index: 7;
   transform: scale(0);
   animation: scale .5s ease 2.9s forwards;
@@ -151,7 +149,7 @@
   transform-origin: top;
   width: 15%;
   top: 17%;
-  left: 50%;
+  right: 50%;
   z-index: 6;
   transform: scale(0);
   animation: scale .5s ease 3.1s forwards;
