@@ -47,5 +47,4 @@ button {
 button:hover {
   background-color: var(--dark);
   color: white;
-  border: none;
 }
