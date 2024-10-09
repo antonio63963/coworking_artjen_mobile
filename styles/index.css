@@ -38,11 +38,15 @@ fieldset {
 
 
 button {
-  padding: 20px 30px;
+  padding: 0 30px;
   border: 1px solid var(--dark);
   text-transform: uppercase;
   color: var(--dark);
   background-color: transparent;
+  font-size: 13px;
+  font-weight: 400;
+  width: 100%;
+  height: 36px;
 }
 button:hover {
   background-color: var(--dark);

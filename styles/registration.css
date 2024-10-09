@@ -21,7 +21,7 @@
   column-gap: 3%;
   row-gap: 50px;
   justify-content: center;
-  margin-bottom: 60px;
+  margin-bottom: 15px;
 }
 
 .informed-border {
@@ -53,7 +53,7 @@ fieldset.registration-main-chanel {
 .registration-fields {
   display: flex;
   flex-direction: column;
-  row-gap: 40px;
+  row-gap: 15px;
   align-items: center;
   width: 50%;
   min-width: 280px;
