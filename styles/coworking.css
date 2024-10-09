@@ -15,3 +15,13 @@
   text-align: center;
   margin-bottom: 15px;
 }
+
+@media screen and (max-width: 403px) {
+  .coworking-content {
+    align-items: center;
+  }
+  .coworking-subtitle {
+    width: 300px;
+  }
+  
+}
