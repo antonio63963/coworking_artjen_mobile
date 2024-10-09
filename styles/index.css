@@ -38,10 +38,10 @@ fieldset {
 
 
 button {
-  padding: 20px 50px;
+  padding: 20px 30px;
   border: 1px solid var(--dark);
   text-transform: uppercase;
-  color: var(--grey);
+  color: var(--dark);
   background-color: transparent;
 }
 button:hover {

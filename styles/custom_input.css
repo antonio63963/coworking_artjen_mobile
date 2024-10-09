@@ -52,7 +52,8 @@ input[type="radio"]:checked + .customInput>img {
 
 /* text input */
 input[type="text"], input[type="tel"] {
-  padding: 20px;
+  padding: 0 15px;
+  line-height: 38px;
   outline: none;
   border: 1px solid var(--grey);
   height: auto;
