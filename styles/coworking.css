@@ -8,17 +8,10 @@
 .coworking-title {
   font-weight: 400;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 12px;
   text-transform: uppercase;
 }
 .coworking-subtitle {
   text-align: center;
-  margin-bottom: var(--section-padding-vertical);
-}
-
-
-@media screen and (max-width: 756px) {
-  .coworking-title {
-    margin-bottom: var(--section-padding-vertical);
-  }
+  margin-bottom: 15px;
 }
