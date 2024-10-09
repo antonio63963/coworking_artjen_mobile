@@ -16,9 +16,10 @@
   stroke-width: 5;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
-  stroke-dasharray: 1593;
-  stroke-dashoffset: -1593;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
   transform-origin: center;
+  transform: scaleY(-1);
   max-width: 100%;
   width: 100%;
   max-height: 181px;
@@ -166,7 +167,7 @@
 
 @keyframes dash {
   0% {
-    stroke-dashoffset: -1593;
+    stroke-dashoffset: 2000;
   }
   100% {
     stroke-dashoffset: 0;
