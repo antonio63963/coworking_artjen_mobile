@@ -25,8 +25,6 @@
   max-height: 181px;
   height: 100%;
   animation: dash 3s linear 0.3s forwards;
-
-
 }
 .line-mobile {
   width: 90%;
@@ -60,11 +58,11 @@
   .banner-prod-1 {
     position: absolute;
     width: 50%;
-    top:5%;
+    top: 5%;
     left: 50%;
     transform-origin: top right;
     transform: scale(0);
-    animation: scale 1s ease .7s forwards;
+    animation: scale 1s ease 0.7s forwards;
   }
   .banner-prod-2 {
     position: absolute;
@@ -73,7 +71,7 @@
     left: 25%;
     transform-origin: top right;
     transform: scale(0);
-    animation: scale 1s ease .9s forwards;
+    animation: scale 1s ease 0.9s forwards;
   }
   .banner-prod-3 {
     position: absolute;
@@ -117,7 +115,7 @@
   top: 17%;
   z-index: 10;
   transform: scale(0);
-  animation: scale .5s ease 2.3s forwards;
+  animation: scale 0.5s ease 2.3s forwards;
 }
 .tShirt-2 {
   position: absolute;
@@ -127,7 +125,7 @@
   right: 13%;
   z-index: 9;
   transform: scale(0);
-  animation: scale .5s ease 2.5s forwards;
+  animation: scale 0.5s ease 2.5s forwards;
 }
 .tShirt-3 {
   position: absolute;
@@ -137,7 +135,7 @@
   right: 25%;
   z-index: 8;
   transform: scale(0);
-  animation: scale .5s ease 2.7s forwards;
+  animation: scale 0.5s ease 2.7s forwards;
 }
 .trousers-1 {
   position: absolute;
@@ -147,7 +145,7 @@
   right: 38%;
   z-index: 7;
   transform: scale(0);
-  animation: scale .5s ease 2.9s forwards;
+  animation: scale 0.5s ease 2.9s forwards;
 }
 .trousers-2 {
   position: absolute;
@@ -157,7 +155,7 @@
   right: 50%;
   z-index: 6;
   transform: scale(0);
-  animation: scale .5s ease 3.1s forwards;
+  animation: scale 0.5s ease 3.1s forwards;
 }
 
 .banner-note {
@@ -199,10 +197,5 @@
     justify-content: center;
     height: auto;
   }
-  .line-desktop {
-    display: none;
-  }
- 
-
   
 }

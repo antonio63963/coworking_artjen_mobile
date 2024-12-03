@@ -45,13 +45,14 @@ input[type="radio"]:checked + .customInput {
   background-color: var(--dark);
   border: none;
 }
-input[type="checkbox"]:checked + .customInput>img,
-input[type="radio"]:checked + .customInput>img {
+input[type="checkbox"]:checked + .customInput > img,
+input[type="radio"]:checked + .customInput > img {
   display: block;
 }
 
 /* text input */
-input[type="text"], input[type="tel"] {
+input[type="text"],
+input[type="tel"] {
   padding: 0 15px;
   line-height: 38px;
   outline: none;

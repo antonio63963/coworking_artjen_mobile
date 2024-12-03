@@ -1,254 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles/fonts.css" rel="stylesheet" />
+    <link href="styles/colors.css" rel="stylesheet" />
+    <link href="styles/constants.css" rel="stylesheet" />
+    <link href="styles/index.css" rel="stylesheet" />
+    <link href="styles/banner.css" rel="stylesheet" />
+    <link href="styles/profits.css" rel="stylesheet" />
+    <link href="styles/coworking.css" rel="stylesheet" />
+    <link href="styles/registration.css" rel="stylesheet" />
+    <link href="styles/custom_input.css" rel="stylesheet" />
+    <link href="styles/footer.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&display=swap" rel="stylesheet">
-  <link href="styles/fonts.css" rel="stylesheet">
-  <link href="styles/colors.css" rel="stylesheet">
-  <link href="styles/constants.css" rel="stylesheet">
-  <link href="styles/index.css" rel="stylesheet">
-  <link href="styles/banner.css" rel="stylesheet">
-  <link href="styles/profits.css" rel="stylesheet">
-  <link href="styles/coworking.css" rel="stylesheet">
-  <link href="styles/registration.css" rel="stylesheet">
-  <link href="styles/custom_input.css" rel="stylesheet">
-  <link href="styles/footer.css" rel="stylesheet">
-  <title>Document</title>
+  <body>
+    <main class="coworking-content">
+      <h1 class="coworking-title">Співпраця з власниками магазинів</h1>
+      <p class="coworking-subtitle">
+        Продаєте жіночий одяг? Пропонуємо вигідні умови співпраці!
+      </p>
 
-  <style>
-    .header {
-      background-color: lightblue;
-      width: 100%;
-      height: 44px;
-      position:sticky;
-      top: 0;
-      z-index: 999;
-      display: flex;
-      align-items: center;
-    }
-  </style>
-</head>
+      <div class="banner-wrapper">
+        <!-- mobile backLine -->
+        <?xml version="1.0" encoding="utf-8"?>
+        <svg
+          class="line-mobile"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 486 672"
+          style="enable-background: new 0 0 486 672"
+          xml:space="preserve"
+        >
+          <path
+            class="banner-backline"
+            d="M2.8,674.5V553.1c0-12.8,10.4-23.1,23.1-23.1h435.3c12.8,0,23.1-10.4,23.1-23.1V204.2
+        c0-12.8-10.4-23.1-23.1-23.1H25.9c-12.8,0-23.1-10.4-23.1-23.1V2.9"
+          />
+        </svg>
 
-<body>
-  <header class="header">Pseudo Header</header>
-  <main class="coworking-content">
-    <h1 class="coworking-title">Співпраця з власниками магазинів</h1>
-    <p class="coworking-subtitle">Продаєте жіночий одяг? Пропонуємо вигідні умови співпраці!</p>
+        <!-- machine -->
+        <img class="banner-machine" src="images/machine.svg" alt="machine" />
+        <div class="banner-clothes">
+          <div class="banner-clothes-container">
+            <img class="banner-bg" src="images/prodClothBg.svg" alt="bg" />
+            <img
+              class="banner-prod-1"
+              src="images/prodCloth1.svg"
+              alt="production"
+            />
+            <img
+              class="banner-prod-2"
+              src="images/prodCloth2.svg"
+              alt="production"
+            />
+            <img
+              class="banner-prod-3"
+              src="images/prodCloth3.svg"
+              alt="production"
+            />
+          </div>
+        </div>
 
-    <div class="banner-wrapper">
-      <!-- mobile backLine -->
-      <?xml version="1.0" encoding="utf-8"?>
-      <svg class="line-mobile" version="1.1" xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 486 672"
-        style="enable-background:new 0 0 486 672;" xml:space="preserve">
-        <!-- <path class="banner-backline" d="M2.8,671.5V516.4c0-12.7,10.3-23.1,23.1-23.1h435.3c12.7,0,23.1-10.3,23.1-23.1V167.5
-        c0-12.7-10.3-23.1-23.1-23.1H25.9c-12.7,0-23.1-10.3-23.1-23.1V-0.1" /> -->
-
-        <path class="banner-backline" d="M2.8,674.5V553.1c0-12.8,10.4-23.1,23.1-23.1h435.3c12.8,0,23.1-10.4,23.1-23.1V204.2
-        c0-12.8-10.4-23.1-23.1-23.1H25.9c-12.8,0-23.1-10.4-23.1-23.1V2.9"/>
-      </svg>
-
-
-      <!-- machine -->
-      <img class="banner-machine" src="images/machine.svg" alt="machine">
-      <div class="banner-clothes">
-        <div class="banner-clothes-container">
-          <img class="banner-bg" src="images/prodClothBg.svg" alt="bg">
-          <img class="banner-prod-1" src="images/prodCloth1.svg" alt="production">
-          <img class="banner-prod-2" src="images/prodCloth2.svg" alt="production">
-          <img class="banner-prod-3" src="images/prodCloth3.svg" alt="production">
+        <div class="banner-shop">
+          <div class="banner-shop-images">
+            <img
+              src="images/stendReverse.svg"
+              class="banner-stend"
+              alt="stend"
+            />
+            <img
+              src="images/womanReverse.svg"
+              class="banner-woman"
+              alt="woman"
+            />
+            <!-- clothes -->
+            <img class="tShirt-1" src="images/clothReverse1.svg" alt="cloth1" />
+            <img class="tShirt-2" src="images/clothReverse2.svg" alt="cloth2" />
+            <img class="tShirt-3" src="images/clothReverse3.svg" alt="cloth3" />
+            <img
+              class="trousers-1"
+              src="images/trousersReverse1.svg"
+              alt="trousers-1"
+            />
+            <img
+              class="trousers-2"
+              src="images/trousersReverse2.svg"
+              alt="trousers-2"
+            />
+          </div>
         </div>
       </div>
+      <p class="banner-note">
+        Зверніть увагу: замовлення продукції гуртом можливе лише повним
+        розмірним рядом.
+      </p>
 
-      <div class="banner-shop">
-        <div class="banner-shop-images">
-          <img src="images/stendReverse.svg" class="banner-stend" alt="stend">
-          <img src="images/womanReverse.svg" class="banner-woman" alt="woman">
-          <!-- clothes -->
-          <img class="tShirt-1" src="images/clothReverse1.svg" alt="cloth1">
-          <img class="tShirt-2" src="images/clothReverse2.svg" alt="cloth2">
-          <img class="tShirt-3" src="images/clothReverse3.svg" alt="cloth3">
-          <img class="trousers-1" src="images/trousersReverse1.svg" alt="trousers-1">
-          <img class="trousers-2" src="images/trousersReverse2.svg" alt="trousers-2">
-        </div>
-      </div>
-    </div>
-    <p class="banner-note">Зверніть увагу: замовлення продукції гуртом можливе лише повним розмірним рядом.</p>
-
-    <!-- Profits -->
-    <section class="profits-section">
-      <h2 class="profit-section-title">Наші основні переваги</h2>
-      <div class="profits-row">
-        <!-- ========== -->
-        <div class="profit-card">
-          <div class="profit-img-wrapper">
-            <img src="images/profits/assorti.svg" alt="assortment" class="profit-card-img">
-          </div>
-          <p class="profit-card-text">Наявність власного швейного та в’язального виробництва дозволяє створювати широкий
-            асортимент на всі сезони
-            круглий рік.</p>
-        </div>
-        <!-- ========== -->
-        <div class="profit-card">
-          <div class="profit-img-wrapper">
-            <img src="images/profits/price.svg" alt="price" class="profit-card-img">
-          </div>
-          <p class="profit-card-text">Оптимальне співвідношення ціни та якості завдяки впровадженню концепції ощадливого
-            виробництва LEAN.</p>
-        </div>
-        <!-- ========== -->
-        <div class="profit-card">
-          <div class="profit-img-wrapper">
-            <img src="images/profits/service.svg" alt="service" class="profit-card-img">
-          </div>
-          <p class="profit-card-text">Ми працюємо лише напряму без посередників, що дозволить Вам уникнути будь-яких
-            додаткових націнок.</p>
-        </div>
-        <!--+++++ ========== +++++-->
-        <div class="profit-card">
-          <div class="profit-img-wrapper">
-            <img src="images/profits/repeat.svg" alt="repeat production" class="profit-card-img">
-          </div>
-          <p class="profit-card-text">Ми маємо змогу повторно запускати у виробництво найпопулярніші моделі вже протягом
-            тижня після відповідного запиту наших клієнтів.</p>
-        </div>
-        <!-- ========== -->
-        <div class="profit-card">
-          <div class="profit-img-wrapper">
-            <img src="images/profits/support.svg" alt="support" class="profit-card-img">
-          </div>
-          <p class="profit-card-text">У разі будь-яких запитань до ваших послуг професійні менеджери нашого колл-центру,
-            які оперативно відреагують на Ваш запит.
-          </p>
-        </div>
-        <!-- ========== -->
-        <div class="profit-card">
-          <div class="profit-img-wrapper">
-            <img src="images/profits/delivery.svg" alt="delivery" class="profit-card-img">
-          </div>
-          <p class="profit-card-text">Якісно організована робота відділу логістика забезпечує відправку замовлень
-            будь-якого обсягу безпосередньо в день оплати.
-          </p>
-        </div>
-      </div>
-      <!-- VIDEO -->
-      <div class="profits-video-block">
-        <div class="profits-video-container">
-          <iframe class="profits-responsive-video" frameborder="0" allowfullscreen
-            src="https://www.youtube.com/embed/tgbNymZ7vqY">
-          </iframe>
-        </div>
-        <p class="profits-text">Якщо вас зацікавила наша пропозиція, будь ласка, заповніть форму нижче і наш менеджер
-          зв’яжеться з Вами в
-          найкоротші терміни для обговорення умов співпраці!</p>
-      </div>
-    </section>
-
-    <!-- Registration -->
-    <section class="registration">
-      <h2 class="registration-title">Анкета реєстрації</h2>
-      <!-- FORM -->
-      <form class="registration-form">
-        <div class="registration-form-content">
-          <div class="registration-options">
-            <div class="informed-checkbox">
-              <label class="informed-border">
-                <input type="checkbox" id="informed" name="informed" />
-                <div class="customInput">
-                  <img src="images/checkIcon.svg" class="checkIcon" alt="check">
-                </div>
-                Я ознайомлений і мене влаштовує, що замовлення продукції гуртом можливе лише повним розмірним рядом.
-              </label>
+      <!-- Profits -->
+      <section class="profits-section">
+        <h2 class="profit-section-title">Наші основні переваги</h2>
+        <div class="profits-row">
+          <!-- ========== -->
+          <div class="profit-card">
+            <div class="profit-img-wrapper">
+              <img
+                src="images/profits/assorti.svg"
+                alt="assortment"
+                class="profit-card-img"
+              />
             </div>
-
-            <!-- SELECT MAIN CHANEL -->
-            <fieldset class="registration-main-chanel">
-              <legend class="registration-main-chanel-title">Ваш основний канал продажу:</legend>
-              <!-- +++++++++++++++++ -->
-              <label>
-                <input type="radio" id="shops" name="mainChanel" value="shops" checked />
-                <div class="customInput">
-                  <img src="images/checkIcon.svg" class="checkIcon" alt="check">
-                </div>
-                Мережа магазинів
-              </label>
-              <!-- ++++++++++++++++++++ -->
-              <label>
-                <input type="radio" id="singleShop" name="mainChanel" value="singleShop" />
-                <div class="customInput">
-                  <img src="images/checkIcon.svg" class="checkIcon" alt="check">
-                </div>
-                Роздрібний магазин
-              </label>
-              <!-- ++++++++++++++++++++++++ -->
-              <label>
-                <input type="radio" id="tradingPoint" name="mainChanel" value="tradingPoint" />
-                <div class="customInput">
-                  <img src="images/checkIcon.svg" class="checkIcon" alt="check">
-                </div>
-                Торгова точка на ринку
-              </label>
-              <!-- ++++++++++++++++++++++++ -->
-              <label>
-                <input type="radio" id="internet" name="mainChanel" value="internet" />
-                <div class="customInput">
-                  <img src="images/checkIcon.svg" class="checkIcon" alt="check">
-                </div>
-                Продажі в інтернеті
-              </label>
-            </fieldset>
+            <p class="profit-card-text">
+              Наявність власного швейного та в’язального виробництва дозволяє
+              створювати широкий асортимент на всі сезони круглий рік.
+            </p>
           </div>
-          <!-- REGISTRATION FIELDS -->
-          <div class="registration-fields">
-            <input name="comany" type="text" placeholder="Назва компанії">
-            <input name="city" type="text" placeholder="З якого Ви міста">
-            <input name="userName" type="text" placeholder="Ім'я">
-            <input name="phone" type="tel" placeholder="Телефон">
+          <!-- ========== -->
+          <div class="profit-card">
+            <div class="profit-img-wrapper">
+              <img
+                src="images/profits/price.svg"
+                alt="price"
+                class="profit-card-img"
+              />
+            </div>
+            <p class="profit-card-text">
+              Оптимальне співвідношення ціни та якості завдяки впровадженню
+              концепції ощадливого виробництва LEAN.
+            </p>
+          </div>
+          <!-- ========== -->
+          <div class="profit-card">
+            <div class="profit-img-wrapper">
+              <img
+                src="images/profits/service.svg"
+                alt="service"
+                class="profit-card-img"
+              />
+            </div>
+            <p class="profit-card-text">
+              Ми працюємо лише напряму без посередників, що дозволить Вам
+              уникнути будь-яких додаткових націнок.
+            </p>
+          </div>
+          <!--+++++ ========== +++++-->
+          <div class="profit-card">
+            <div class="profit-img-wrapper">
+              <img
+                src="images/profits/repeat.svg"
+                alt="repeat production"
+                class="profit-card-img"
+              />
+            </div>
+            <p class="profit-card-text">
+              Ми маємо змогу повторно запускати у виробництво найпопулярніші
+              моделі вже протягом тижня після відповідного запиту наших
+              клієнтів.
+            </p>
+          </div>
+          <!-- ========== -->
+          <div class="profit-card">
+            <div class="profit-img-wrapper">
+              <img
+                src="images/profits/support.svg"
+                alt="support"
+                class="profit-card-img"
+              />
+            </div>
+            <p class="profit-card-text">
+              У разі будь-яких запитань до ваших послуг професійні менеджери
+              нашого колл-центру, які оперативно відреагують на Ваш запит.
+            </p>
+          </div>
+          <!-- ========== -->
+          <div class="profit-card">
+            <div class="profit-img-wrapper">
+              <img
+                src="images/profits/delivery.svg"
+                alt="delivery"
+                class="profit-card-img"
+              />
+            </div>
+            <p class="profit-card-text">
+              Якісно організована робота відділу логістика забезпечує відправку
+              замовлень будь-якого обсягу безпосередньо в день оплати.
+            </p>
           </div>
         </div>
-        <button type="submit">ВIДПРАВИТИ ЗАЯВКУ</button>
-      </form>
-    </section>
-  </main>
-  <!-- FOOTER -->
-  <div class="footer-wrapper">
-    <footer class="footer">
-      <!-- CONTACTS -->
-      <div class="contacts">
-        <span class="contacts-phone">+38 067 380 39 71</span>
-        <p class="contacts-address">Україна, м. Хмельницький, <br class="contacts-mobile-break"> Будівельників 22/1 <br
-            class="contacts-mobile-break">(<span>див. на карті</span>)</p>
-      </div>
-      <!-- SOCIALS -->
-      <div class="socials">
-        <h4>Приєднуйся до нас</h4>
-        <div class="socials-row-icons">
-          <!-- instagram -->
-          <a class="social-link" href="https://www.instagram.com/arjen_official_page/" target="_blank" rel="nofollow">
-            <img class="social-icon" src="images/socials/instagram.svg" alt="">
-          </a>
-          <!-- facebook -->
-          <a class="social-link" href="https://www.instagram.com/arjen_official_page/" target="_blank" rel="nofollow">
-            <img class="social-icon" src="images/socials/fb.svg" alt="">
-          </a>
-          <!-- facebook -->
-          <a class="social-link" href="https://www.instagram.com/arjen_official_page/" target="_blank" rel="nofollow">
-            <img class="social-icon-long" src="images/socials/youtube.svg" alt="">
-          </a>
-
+        <!-- VIDEO -->
+        <div class="profits-video-block">
+          <div class="profits-video-container">
+            <iframe
+              class="profits-responsive-video"
+              frameborder="0"
+              allowfullscreen
+              src="https://www.youtube.com/embed/tgbNymZ7vqY"
+            >
+            </iframe>
+          </div>
+          <p class="profits-text">
+            Якщо вас зацікавила наша пропозиція, будь ласка, заповніть форму
+            нижче і наш менеджер зв’яжеться з Вами в найкоротші терміни для
+            обговорення умов співпраці!
+          </p>
         </div>
-      </div>
-      <!-- POLITICS -->
-      <div class="politics">
-        <a href="#">Політика конфіденційності</a>
-        <a href="#"> Політика повернення / обміну товарів</a>
-      </div>
-    </footer>
-  </div>
-  <script src="scroll.js"></script>
-</body>
+      </section>
 
+      <!-- Registration -->
+      <section class="registration">
+        <h2 class="registration-title">Анкета реєстрації</h2>
+        <!-- FORM -->
+        <form class="registration-form">
+          <div class="registration-form-content">
+            <div class="registration-options">
+              <div class="informed-checkbox">
+                <label class="informed-border">
+                  <input type="checkbox" id="informed" name="informed" />
+                  <div class="customInput">
+                    <img
+                      src="images/checkIcon.svg"
+                      class="checkIcon"
+                      alt="check"
+                    />
+                  </div>
+                  Я ознайомлений і мене влаштовує, що замовлення продукції
+                  гуртом можливе лише повним розмірним рядом.
+                </label>
+              </div>
+
+              <!-- SELECT MAIN CHANEL -->
+              <fieldset class="registration-main-chanel">
+                <legend class="registration-main-chanel-title">
+                  Ваш основний канал продажу:
+                </legend>
+                <!-- +++++++++++++++++ -->
+                <label>
+                  <input
+                    type="radio"
+                    id="shops"
+                    name="mainChanel"
+                    value="shops"
+                    checked
+                  />
+                  <div class="customInput">
+                    <img
+                      src="images/checkIcon.svg"
+                      class="checkIcon"
+                      alt="check"
+                    />
+                  </div>
+                  Мережа магазинів
+                </label>
+                <!-- ++++++++++++++++++++ -->
+                <label>
+                  <input
+                    type="radio"
+                    id="singleShop"
+                    name="mainChanel"
+                    value="singleShop"
+                  />
+                  <div class="customInput">
+                    <img
+                      src="images/checkIcon.svg"
+                      class="checkIcon"
+                      alt="check"
+                    />
+                  </div>
+                  Роздрібний магазин
+                </label>
+                <!-- ++++++++++++++++++++++++ -->
+                <label>
+                  <input
+                    type="radio"
+                    id="tradingPoint"
+                    name="mainChanel"
+                    value="tradingPoint"
+                  />
+                  <div class="customInput">
+                    <img
+                      src="images/checkIcon.svg"
+                      class="checkIcon"
+                      alt="check"
+                    />
+                  </div>
+                  Торгова точка на ринку
+                </label>
+                <!-- ++++++++++++++++++++++++ -->
+                <label>
+                  <input
+                    type="radio"
+                    id="internet"
+                    name="mainChanel"
+                    value="internet"
+                  />
+                  <div class="customInput">
+                    <img
+                      src="images/checkIcon.svg"
+                      class="checkIcon"
+                      alt="check"
+                    />
+                  </div>
+                  Продажі в інтернеті
+                </label>
+              </fieldset>
+            </div>
+            <!-- REGISTRATION FIELDS -->
+            <div class="registration-fields">
+              <input name="comany" type="text" placeholder="Назва компанії" />
+              <input name="city" type="text" placeholder="З якого Ви міста" />
+              <input name="userName" type="text" placeholder="Ім'я" />
+              <input name="phone" type="tel" placeholder="Телефон" />
+            </div>
+          </div>
+          <button type="submit">ВIДПРАВИТИ ЗАЯВКУ</button>
+        </form>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <div class="footer-wrapper">
+      <footer class="footer">
+        <!-- CONTACTS -->
+        <div class="contacts">
+          <span class="contacts-phone">+38 067 380 39 71</span>
+          <p class="contacts-address">
+            Україна, м. Хмельницький, <br class="contacts-mobile-break" />
+            Будівельників 22/1 <br class="contacts-mobile-break" />(<span
+              >див. на карті</span
+            >)
+          </p>
+        </div>
+        <!-- SOCIALS -->
+        <div class="socials">
+          <h4>Приєднуйся до нас</h4>
+          <div class="socials-row-icons">
+            <!-- instagram -->
+            <a
+              class="social-link"
+              href="https://www.instagram.com/arjen_official_page/"
+              target="_blank"
+              rel="nofollow"
+            >
+              <img
+                class="social-icon"
+                src="images/socials/instagram.svg"
+                alt=""
+              />
+            </a>
+            <!-- facebook -->
+            <a
+              class="social-link"
+              href="https://www.instagram.com/arjen_official_page/"
+              target="_blank"
+              rel="nofollow"
+            >
+              <img class="social-icon" src="images/socials/fb.svg" alt="" />
+            </a>
+            <!-- facebook -->
+            <a
+              class="social-link"
+              href="https://www.instagram.com/arjen_official_page/"
+              target="_blank"
+              rel="nofollow"
+            >
+              <img
+                class="social-icon-long"
+                src="images/socials/youtube.svg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+        <!-- POLITICS -->
+        <div class="politics">
+          <a href="#">Політика конфіденційності</a>
+          <a href="#"> Політика повернення / обміну товарів</a>
+        </div>
+      </footer>
+    </div>
+    <script src="scroll.js"></script>
+  </body>
 </html>
